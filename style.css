@@ -1,0 +1,100 @@
+/* slid */
+#pnd, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #pnd {
+    padding: 50px;
+    display: none;
+  }
+
+  /* stop sliding */
+  #slid, #down {
+padding: 5px;
+font-size: 18px;
+text-align: center;
+background-color: #555;
+color: white;
+border: solid 1px #666;
+border-radius: 3px;
+}
+
+#down {
+padding: 50px;
+display: none;
+}
+
+#r{
+background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/himalayan-blue-poppy-flowers-marisa-meisters.jpg");
+background-size: cover;
+text-align: center;
+}
+
+div{
+    background-color: aqua;
+    text-align: center;
+}
+
+#pg{
+    background-color: peachpuff;
+}
+
+#sec{
+    background-color: azure;
+}
+
+section{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#pg{
+    height: 150px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+/* Animation */
+#anim{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 100%;
+}
+   
+/* add class */
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .green{
+    color:green;
+  }
+
+  /* remove */
+  .red {
+    color: red;
+  }
+
+  /* toggle */
+  .blue {
+    color: blue;
+  }
+
+  /* dimension */
+  #div1 {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+  }
